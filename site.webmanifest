@@ -1,0 +1,24 @@
+{
+  "name": "The Olive Branch Cafe",
+  "short_name": "Olive Branch",
+  "description": "Handcrafted coffee, Mediterranean breakfast and lunch, fresh pastries, and smoothies in Beaufort, SC.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#5B6F3A",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "images/hero/logo/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

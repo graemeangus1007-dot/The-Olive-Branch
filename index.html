@@ -5,25 +5,110 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#5B6F3A">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="The Olive Branch Cafe">
+    <meta name="geo.region" content="US-SC">
+    <meta name="geo.placename" content="Beaufort">
 
-    <title>The Olive Branch Cafe | Coffee • Breakfast • Lunch</title>
+    <title>The Olive Branch Cafe | Coffee, Breakfast &amp; Lunch in Beaufort, SC</title>
+    <meta name="description" content="Visit The Olive Branch Cafe in Beaufort, SC for handcrafted coffee, Mediterranean breakfast and lunch, fresh pastries, and seasonal smoothies.">
 
-    <meta name="description" content="Fresh coffee, breakfast, lunch, pastries and a welcoming atmosphere in Beaufort, South Carolina.">
+    <link rel="canonical" href="https://www.theolivebranchbeaufort.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Olive Branch Cafe">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="The Olive Branch Cafe | Coffee, Breakfast &amp; Lunch in Beaufort, SC">
+    <meta property="og:description" content="Visit The Olive Branch Cafe in Beaufort, SC for handcrafted coffee, Mediterranean breakfast and lunch, fresh pastries, and seasonal smoothies.">
+    <meta property="og:url" content="https://www.theolivebranchbeaufort.com/">
+    <meta property="og:image" content="https://www.theolivebranchbeaufort.com/images/hero/hero.jpg">
+    <meta property="og:image:alt" content="The Olive Branch Cafe exterior and outdoor seating in Beaufort, South Carolina">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Olive Branch Cafe | Coffee, Breakfast &amp; Lunch in Beaufort, SC">
+    <meta name="twitter:description" content="Visit The Olive Branch Cafe in Beaufort, SC for handcrafted coffee, Mediterranean breakfast and lunch, fresh pastries, and seasonal smoothies.">
+    <meta name="twitter:image" content="https://www.theolivebranchbeaufort.com/images/hero/hero.jpg">
+
+    <!-- Favicons
+         Place the following files in the site root when available:
+         - favicon.ico
+         - favicon-16x16.png
+         - favicon-32x32.png
+         - apple-touch-icon.png (180x180)
+    -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <!-- When available, add to site root and uncomment:
+         <link rel="icon" href="favicon.ico" sizes="any">
+         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    -->
+    <link rel="apple-touch-icon" href="images/hero/logo/logo.webp">
+    <link rel="manifest" href="site.webmanifest">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="images/hero/hero.jpg" fetchpriority="high">
 
     <link rel="stylesheet" href="css/style.css">
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["CafeOrCoffeeShop", "Restaurant"],
+      "name": "The Olive Branch Cafe",
+      "alternateName": "The Olive Branch",
+      "description": "A welcoming Beaufort café for handcrafted coffee, Mediterranean-inspired breakfast and lunch, fresh pastries, and smoothies.",
+      "url": "https://www.theolivebranchbeaufort.com/",
+      "image": "https://www.theolivebranchbeaufort.com/images/hero/hero.jpg",
+      "telephone": "+18433792188",
+      "email": "MANAGEMENT.URBANBREW@GMAIL.COM",
+      "priceRange": "$$",
+      "servesCuisine": ["Coffee Shop", "Cafe", "Mediterranean"],
+      "menu": "https://www.theolivebranchbeaufort.com/menu.html",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1214 Ribaut Rd",
+        "addressLocality": "Beaufort",
+        "addressRegion": "SC",
+        "postalCode": "29902",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "32.4312",
+        "longitude": "-80.6698"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "08:00",
+          "closes": "15:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/theolivebranch.beaufort/",
+        "https://www.facebook.com/people/The-Olive-Branch-Cafe/61581589833153/",
+        "https://www.yelp.com/biz/the-olive-branch-beaufort"
+      ]
+    }
+    </script>
+
 </head>
 
-<body>
+<body class="home-page">
+
+<a class="skip-link" href="#main">Skip to content</a>
 
 <header>
 
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Primary">
 
         <a href="index.html" class="logo">
 
@@ -47,7 +132,8 @@
 
         <a class="order-button"
            href="https://www.doordash.com/store/the-olive-branch-cafe-beaufort-40457383/100261758/"
-           target="_blank">
+           target="_blank"
+           rel="noopener noreferrer">
 
             Order Online
 
@@ -57,9 +143,9 @@
 
 </header>
 
-<section class="hero">
+<main id="main">
 
-    <div class="hero-overlay">
+<section class="hero hero-parallax">
 
         <div class="hero-content">
 
@@ -73,9 +159,8 @@
 
             <p class="hero-text">
 
-                A cozy neighborhood café serving handcrafted coffee,
-                fresh breakfast, homemade pastries and delicious lunches
-                in beautiful Beaufort, South Carolina.
+                Handcrafted coffee, fresh Mediterranean-inspired food,
+                and a warm place to gather in Beaufort.
 
             </p>
 
@@ -89,6 +174,7 @@
 
                 <a href="https://www.doordash.com/store/the-olive-branch-cafe-beaufort-40457383/100261758/"
                    target="_blank"
+                   rel="noopener noreferrer"
                    class="btn secondary">
 
                     Order Online
@@ -99,350 +185,521 @@
 
         </div>
 
-    </div>
-
-</section>
-<!-- ==========================
-     Featured Coffee
-========================== -->
-
-<section class="featured-section fade-in">
-
-    <div class="container">
-
-        <div class="featured-image">
-
-            <img src="images/hero/coffee/iced-coffee.jpg" alt="Urban Brew Iced Coffee">
-
-        </div>
-
-        <div class="featured-content">
-
-            <span class="section-label">HANDCRAFTED COFFEE</span>
-
-            <h2>Made Fresh Every Day</h2>
-
-            <p>
-
-                From rich espresso drinks to refreshing iced coffee,
-                every cup is carefully prepared using quality ingredients
-                and served with a smile.
-
-            </p>
-
-            <a href="menu.html" class="btn">
-
-                View Coffee Menu
-
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ==========================
-     Featured Food
-========================== -->
-
-<section class="featured-section reverse">
-
-    <div class="container">
-
-        <div class="featured-content">
-
-            <span class="section-label">FRESH FOOD</span>
-
-            <h2>Breakfast & Lunch You'll Love</h2>
-
-            <p>
-
-                Whether you're stopping in for breakfast,
-                meeting friends for lunch,
-                or grabbing something to-go,
-                every meal is prepared fresh with care.
-
-            </p>
-
-            <a href="menu.html" class="btn">
-
-                Explore Our Menu
-
-            </a>
-
-        </div>
-
-        <div class="featured-image">
-
-            <img src="images/hero/food/waffles.jpg" alt="Belgian Waffles">
-
-        </div>
-
-    </div>
+        <a class="home-scroll-indicator" href="#favorites" aria-label="Scroll to customer favorites">
+            <span>Discover</span>
+            <i aria-hidden="true"></i>
+        </a>
 
 </section>
 <!-- ==========================
      Customer Favorites
 ========================== -->
+<section class="home-favorites fade-in fade-up" id="favorites">
+    <div class="container">
+        <div class="section-heading">
+            <span class="section-label">CUSTOMER FAVORITES</span>
+            <h2>Come Hungry. Leave Happy.</h2>
+            <p>A few of the handcrafted favorites our guests return for again and again.</p>
+        </div>
 
-<section class="favorites fade-in">
+        <div class="home-favorites-grid">
+            <article class="home-favorite-card">
+                <div class="home-favorite-media">
+                    <img src="images/hero/food/waffles.jpg" width="1170" height="1529" alt="Waffles topped with strawberries, cream, and pistachio butter" loading="lazy" decoding="async">
+                    <span class="home-favorite-price">$11.95</span>
+                </div>
+                <div class="home-favorite-body">
+                    <h3>The Amalfi Stack</h3>
+                    <p>Two fluffy waffles with house-made pistachio butter and your choice of topping.</p>
+                    <a href="menu.html#sweet-bites" class="home-card-link">View Menu <span aria-hidden="true">→</span></a>
+                </div>
+            </article>
 
-    <div class="section-heading">
+            <article class="home-favorite-card">
+                <div class="home-favorite-media">
+                    <img src="images/hero/food/acai.jpg" width="1170" height="1422" alt="House-made açaí bowl with fruit and granola" loading="lazy" decoding="async">
+                    <span class="home-favorite-price">$12.95</span>
+                </div>
+                <div class="home-favorite-body">
+                    <h3>Açaí Bowl</h3>
+                    <p>Granola, coconut, banana, strawberries, and honey over house-made açaí.</p>
+                    <a href="menu.html#sweet-bites" class="home-card-link">View Menu <span aria-hidden="true">→</span></a>
+                </div>
+            </article>
 
-        <span class="section-label">CUSTOMER FAVORITES</span>
+            <article class="home-favorite-card">
+                <div class="home-favorite-media">
+                    <img src="images/gyro.jpeg" width="1536" height="2048" alt="Olive Branch gyro with a Mediterranean side salad" loading="lazy" decoding="async">
+                    <span class="home-favorite-price">$10 + protein</span>
+                </div>
+                <div class="home-favorite-body">
+                    <h3>Olive Branch Gyro</h3>
+                    <p>House-made pita, spring mix, tzatziki, feta, and your choice of protein.</p>
+                    <a href="menu.html#savory" class="home-card-link">View Menu <span aria-hidden="true">→</span></a>
+                </div>
+            </article>
 
-        <h2>Made Fresh. Served with Care.</h2>
+            <article class="home-favorite-card">
+                <div class="home-favorite-media">
+                    <img src="images/grilledcheese2.jpeg" width="1536" height="2048" alt="Fancy grilled cheese sandwich at The Olive Branch Cafe" loading="lazy" decoding="async">
+                    <span class="home-favorite-price">$8.50</span>
+                </div>
+                <div class="home-favorite-body">
+                    <h3>Fancy Grilled Cheese</h3>
+                    <p>Sharp cheddar and mozzarella with seasoned tomato slices on crisp toasted sourdough.</p>
+                    <a href="menu.html#savory" class="home-card-link">View Menu <span aria-hidden="true">→</span></a>
+                </div>
+            </article>
 
-        <p>
-            Some of our guests' favorite menu items, prepared fresh every day.
-        </p>
+            <article class="home-favorite-card">
+                <div class="home-favorite-media">
+                    <img src="images/smoothie.jpeg" width="1536" height="2048" alt="Fresh fruit smoothie at The Olive Branch" loading="lazy" decoding="async">
+                    <span class="home-favorite-price">$9</span>
+                </div>
+                <div class="home-favorite-body">
+                    <h3>The Lowcountry Green</h3>
+                    <p>Mango, banana, spinach, celery, cucumber, grapes, and coconut water.</p>
+                    <a href="menu.html#smoothies" class="home-card-link">View Menu <span aria-hidden="true">→</span></a>
+                </div>
+            </article>
 
+            <article class="home-favorite-card">
+                <div class="home-favorite-media">
+                    <img src="images/hero/coffee/iced-coffee.jpg" width="1170" height="1411" alt="Iced specialty coffee at The Olive Branch Cafe" loading="lazy" decoding="async">
+                    <span class="home-favorite-price">$4.50+</span>
+                </div>
+                <div class="home-favorite-body">
+                    <h3>Honey Lavender Latte</h3>
+                    <p>House espresso, creamy milk, honey, and fragrant lavender.</p>
+                    <a href="menu.html#coffee" class="home-card-link">View Menu <span aria-hidden="true">→</span></a>
+                </div>
+            </article>
+        </div>
     </div>
-
-    <div class="favorite-grid">
-
-        <div class="favorite-card">
-
-            <img src="images/hero/food/acai.jpg" alt="Acai Bowl">
-
-            <h3>Acai Bowl</h3>
-
-            <p>
-                Fresh fruit, granola, coconut, and delicious toppings.
-            </p>
-
-        </div>
-
-        <div class="favorite-card">
-
-            <img src="images/hero/food/pasta.jpg" alt="Fresh Pasta">
-
-            <h3>Fresh Pasta</h3>
-
-            <p>
-                Homemade comfort food made with quality ingredients.
-            </p>
-
-        </div>
-
-        <div class="favorite-card">
-
-            <img src="images/hero/food/croissant.jpg" alt="Fresh Croissant">
-
-            <h3>Fresh Pastries</h3>
-
-            <p>
-                Baked fresh and perfect with your favorite coffee.
-            </p>
-
-        </div>
-
-    </div>
-
 </section>
 
 <!-- ==========================
-     Our Story
+     Welcome
 ========================== -->
 
-<section class="story fade-in">
+<section class="home-atmosphere home-welcome fade-in fade-left">
 
     <div class="container">
 
-        <div class="story-image">
+        <div class="home-atmosphere-image">
 
-            <img src="images/hero/gallery/cafe-photo.jpg" alt="Inside The Olive Branch Cafe">
+            <img src="images/cafephoto2.jpeg"
+                 alt="Guests enjoying Mediterranean breakfast beneath woven lights at The Olive Branch Cafe"
+                 loading="lazy"
+                 decoding="async">
 
         </div>
 
-        <div class="story-content">
+        <div class="home-atmosphere-content">
 
-            <span class="section-label">OUR STORY</span>
+            <span class="section-label">WELCOME</span>
 
-            <h2>A Place to Gather</h2>
-
-            <p>
-
-                The Olive Branch Cafe is more than a coffee shop—it's a welcoming
-                place where friends meet, families gather, and visitors can enjoy
-                fresh food and handcrafted coffee in a relaxed atmosphere.
-
-            </p>
+            <h2>Welcome to The Olive Branch</h2>
 
             <p>
-
-                Whether you're starting your morning with breakfast, stopping by
-                for lunch, or enjoying a coffee on the patio, we hope every visit
-                feels like coming home.
-
+                Whether you're meeting friends for breakfast, stopping in for lunch,
+                studying with a handcrafted coffee, or settling into a quiet corner,
+                The Olive Branch is a warm gathering place in the heart of Beaufort.
             </p>
+
+            <a href="about.html" class="btn">About Us</a>
 
         </div>
 
     </div>
 
 </section>
-<!-- ==========================
-     Photo Gallery
-========================== -->
-
-<section class="gallery-preview fade-in">
-
-    <div class="section-heading">
-
-        <span class="section-label">GALLERY</span>
-
-        <h2>Take a Look Around</h2>
-
-        <p>
-            From handcrafted drinks to delicious meals and our welcoming atmosphere,
-            here's a glimpse of The Olive Branch Cafe.
-        </p>
-
-    </div>
-
-  <div class="gallery-grid">
-
-   <img src="images/hero/gallery/patio.jpg" alt="Outdoor Patio">
-<img src="images/hero/gallery/dog.jpg" alt="Dog visiting the café">
-<img src="images/hero/gallery/cafe-photo.jpg" alt="Inside the café">
-
-<img src="images/hero/food/lasagna.jpg" alt="Lasagna">
-<img src="images/hero/food/acai.jpg" alt="Acai Bowl">
-<img src="images/hero/coffee/iced-coffee.jpg" alt="Iced Coffee">
-
-</div>
-
-</section>
 
 <!-- ==========================
-     Visit Us
+     Coffee Experience
 ========================== -->
-
-<section class="visit fade-in">
-
+<section class="home-coffee-experience fade-in fade-right">
     <div class="container">
+        <div class="home-coffee-media">
+            <figure class="home-coffee-main">
+                <img src="images/hero/coffee/iced-coffee.jpg" width="1170" height="1411" alt="Iced coffee made with locally roasted Urban Brew coffee" loading="lazy" decoding="async">
+            </figure>
+            <figure class="home-coffee-accent">
+                <img src="images/smoothie.jpeg" width="1536" height="2048" alt="Fresh fruit smoothie inside the café" loading="lazy" decoding="async">
+            </figure>
+        </div>
 
-        <div class="visit-info">
+        <div class="home-coffee-content">
+            <span class="section-label">URBAN BREW COFFEE</span>
+            <h2>Handcrafted Coffee</h2>
+            <p>
+                From locally roasted espresso and smooth cold brew to specialty lattes
+                and fresh fruit smoothies, every beverage is made to order with care.
+            </p>
+            <a href="menu.html#coffee" class="btn">See Drink Menu</a>
+        </div>
+    </div>
+</section>
 
-            <span class="section-label">VISIT US</span>
+<!-- ==========================
+     Outdoor Patio
+========================== -->
 
-            <h2>We'd Love to See You</h2>
+<section class="home-patio-feature fade-in fade-up">
+
+    <div class="home-patio-overlay">
+
+        <div class="container home-patio-content">
+
+            <span class="section-label">OUTDOOR SEATING</span>
+
+            <h2>Relax Beneath the Oaks</h2>
 
             <p>
-                Stop in for breakfast, lunch, coffee, or a homemade pastry.
-                Whether you're meeting friends or grabbing a quick bite,
-                you're always welcome.
+                Enjoy breakfast, lunch, or your favorite coffee surrounded by Beaufort's
+                beautiful live oak trees in our spacious outdoor seating area.
             </p>
 
-            <h3>Hours</h3>
+            <a href="contact.html" class="btn">Visit Us</a>
 
-            <ul class="hours-list">
-                <li>Monday – Saturday: 7:30 AM – 3:00 PM</li>
-                <li>Sunday: Closed</li>
-            </ul>
+        </div>
 
-            <a href="contact.html" class="btn">
-                Get Directions
+    </div>
+
+</section>
+<!-- ==========================
+     Why People Love Us
+========================== -->
+<section class="home-why fade-in fade-up">
+    <div class="container">
+        <div class="section-heading">
+            <span class="section-label">WHY PEOPLE LOVE US</span>
+            <h2>Made with Heart. Served with Care.</h2>
+            <p>Everything that makes The Olive Branch a Beaufort favorite.</p>
+        </div>
+
+        <div class="home-why-grid">
+            <article class="home-why-card">
+                <span class="home-why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21V9m0 0C8 9 5 7 4 3c4 0 7 2 8 6Zm0 3c3 0 6-2 7-5-4 0-6 2-7 5Z"/></svg></span>
+                <h3>Fresh Ingredients</h3>
+                <p>Thoughtfully chosen ingredients prepared fresh for every plate.</p>
+            </article>
+            <article class="home-why-card">
+                <span class="home-why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 8h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Zm13 2h2a2 2 0 0 1 0 4h-2M8 4v2m4-2v2"/></svg></span>
+                <h3>Handcrafted Coffee</h3>
+                <p>Locally roasted coffee and specialty drinks made one cup at a time.</p>
+            </article>
+            <article class="home-why-card">
+                <span class="home-why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 14h16M6 14a6 6 0 0 1 12 0m-13 4h14M12 5v3"/></svg></span>
+                <h3>Mediterranean-Inspired Food</h3>
+                <p>Bright flavors, house-made touches, and comforting café favorites.</p>
+            </article>
+            <article class="home-why-card">
+                <span class="home-why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 18h16M6 18v-6h12v6M8 12V8h8v4M5 5h14"/></svg></span>
+                <h3>Relaxing Atmosphere</h3>
+                <p>Warm interiors and shaded patios made for gathering and lingering.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================
+     Photo Strip
+========================== -->
+<section class="home-photo-story fade-in fade-left" aria-label="A glimpse of The Olive Branch">
+    <div class="home-photo-strip">
+        <figure><img src="images/hero/food/waffles.jpg" width="1170" height="1529" alt="Fresh Mediterranean breakfast waffles at The Olive Branch Cafe" loading="lazy" decoding="async" data-lightbox-image data-caption="Fresh Food"><figcaption>Food</figcaption></figure>
+        <figure><img src="images/hero/gallery/drink.jpg" width="348" height="348" alt="Handcrafted iced coffee served at The Olive Branch Cafe" loading="lazy" decoding="async" data-lightbox-image data-caption="Handcrafted Coffee"><figcaption>Coffee</figcaption></figure>
+        <figure><img src="images/cafephoto2.jpeg" width="1916" height="2048" alt="Warm dining room seating inside The Olive Branch Cafe" loading="lazy" decoding="async" data-lightbox-image data-caption="Inside the Café"><figcaption>Interior</figcaption></figure>
+        <figure><img src="images/cafepatio.png" width="1024" height="768" alt="Garden patio seating beneath oak trees at The Olive Branch" loading="lazy" decoding="async" data-lightbox-image data-caption="The Backyard Patio"><figcaption>Patio</figcaption></figure>
+        <figure><img src="images/counter.jpeg" width="2048" height="1536" alt="Coffee counter and barista station at The Olive Branch Cafe" loading="lazy" decoding="async" data-lightbox-image data-caption="At the Counter"><figcaption>Counter</figcaption></figure>
+        <figure><img src="images/smoothie.jpeg" width="1536" height="2048" alt="Fresh fruit smoothie prepared at The Olive Branch Cafe" loading="lazy" decoding="async" data-lightbox-image data-caption="Fresh Smoothies"><figcaption>Smoothies</figcaption></figure>
+    </div>
+</section>
+
+<!-- ==========================
+     Reviews
+========================== -->
+<section class="home-reviews fade-in fade-up">
+    <div class="container">
+        <div class="section-heading">
+            <span class="section-label">★★★★★ WHAT OUR GUESTS ARE SAYING</span>
+            <h2>Loved by the Beaufort Community</h2>
+            <p>From handcrafted coffee and fresh Mediterranean-inspired food to our welcoming atmosphere, our guests love sharing their experiences at The Olive Branch Cafe.</p>
+        </div>
+
+        <div class="home-rating-card">
+            <div class="home-rating-stars" aria-label="Five stars">★★★★★</div>
+            <div class="home-rating-copy">
+                <strong>Highly Rated on Yelp</strong>
+                <span>Real reviews from our customers.</span>
+            </div>
+            <a href="https://www.yelp.com/biz/the-olive-branch-beaufort?osq=The+Olive+Branch"
+               class="btn home-yelp-link"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Open The Olive Branch Cafe Yelp reviews in a new tab">
+                Read Reviews on Yelp <span aria-hidden="true">↗</span>
             </a>
-
         </div>
 
-        <div class="map-container">
-
-            <iframe
-                src="https://www.google.com/maps?q=The+Olive+Branch+Cafe+Beaufort+SC&output=embed"
-                loading="lazy"
-                allowfullscreen>
-            </iframe>
-
+        <div class="home-reviews-grid">
+            <article class="home-review-card">
+                <div class="home-review-header"><span class="home-review-avatar">BS</span><div><strong>Brent S.</strong><div class="home-review-stars" aria-label="Five stars">★★★★★</div></div></div>
+                <blockquote>“The staff were happy and charismatic, the coffee was excellent, and it was a great place to relax. I'll definitely be back.”</blockquote>
+                <div class="home-review-meta"><time datetime="2026-06-03">June 3, 2026</time><span class="home-yelp-badge">Reviewed on Yelp</span></div>
+            </article>
+            <article class="home-review-card">
+                <div class="home-review-header"><span class="home-review-avatar">ST</span><div><strong>Saunda T.</strong><div class="home-review-stars" aria-label="Five stars">★★★★★</div></div></div>
+                <blockquote>“Absolutely the best in Beaufort. Their lattes, breakfast, and lunch are all fantastic.”</blockquote>
+                <div class="home-review-meta"><time datetime="2026-06-15">June 15, 2026</time><span class="home-yelp-badge">Reviewed on Yelp</span></div>
+            </article>
+            <article class="home-review-card">
+                <div class="home-review-header"><span class="home-review-avatar">BR</span><div><strong>Becky R.</strong><div class="home-review-stars" aria-label="Five stars">★★★★★</div></div></div>
+                <blockquote>“Really cute café with great customer service, delicious food, and excellent coffee. Highly recommended.”</blockquote>
+                <div class="home-review-meta"><time datetime="2026-03-21">March 21, 2026</time><span class="home-yelp-badge">Reviewed on Yelp</span></div>
+            </article>
+            <article class="home-review-card">
+                <div class="home-review-header"><span class="home-review-avatar">AW</span><div><strong>Abigail W.</strong><div class="home-review-stars" aria-label="Five stars">★★★★★</div></div></div>
+                <blockquote>“The barista gave wonderful recommendations, the kids loved their drinks, and we'll definitely be returning.”</blockquote>
+                <div class="home-review-meta"><time datetime="2026-05-19">May 19, 2026</time><span class="home-yelp-badge">Reviewed on Yelp</span></div>
+            </article>
+            <article class="home-review-card">
+                <div class="home-review-header"><span class="home-review-avatar">MH</span><div><strong>Michelle H.</strong><div class="home-review-stars" aria-label="Five stars">★★★★★</div></div></div>
+                <blockquote>“Delicious lamb gyro, warm pita, tasty beverages, and a fantastic addition to the Beaufort food scene.”</blockquote>
+                <div class="home-review-meta"><time datetime="2026-04-23">April 23, 2026</time><span class="home-yelp-badge">Reviewed on Yelp</span></div>
+            </article>
+            <article class="home-review-card">
+                <div class="home-review-header"><span class="home-review-avatar">MM</span><div><strong>Matthew M.</strong><div class="home-review-stars" aria-label="Five stars">★★★★★</div></div></div>
+                <blockquote>“The coffee was delicious, the gyro and Greek salad were fresh, and the staff were welcoming and friendly.”</blockquote>
+                <div class="home-review-meta"><time datetime="2026-03-18">March 18, 2026</time><span class="home-yelp-badge">Reviewed on Yelp</span></div>
+            </article>
         </div>
 
+        <div class="home-reviews-cta">
+            <h3>Enjoyed Your Visit?</h3>
+            <p>If you've enjoyed your experience at The Olive Branch Cafe, we'd love to hear your feedback.</p>
+            <a href="https://www.yelp.com/biz/the-olive-branch-beaufort?osq=The+Olive+Branch"
+               class="btn home-yelp-link"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Open The Olive Branch Cafe Yelp reviews in a new tab">
+                Read More Reviews on Yelp <span aria-hidden="true">↗</span>
+            </a>
+        </div>
     </div>
-
 </section>
+
+<!-- ==========================
+     Location
+========================== -->
+<section class="home-location fade-in fade-right">
+    <div class="container">
+        <div class="home-location-grid">
+            <figure class="home-location-photo">
+                <img src="images/cafeexterior.png" width="1024" height="768" alt="The Olive Branch entrance and sunny outdoor seating" loading="lazy" decoding="async">
+            </figure>
+
+            <div class="home-location-info">
+                <span class="section-label">VISIT US</span>
+                <h2>Find Your Favorite Seat</h2>
+                <p>Join us for breakfast, lunch, handcrafted coffee, and a warm Beaufort welcome.</p>
+
+                <div class="home-location-details">
+                    <div><h3>Address</h3><p>950 Ribaut Road<br>Beaufort, SC</p></div>
+                    <div><h3>Hours</h3><p>Monday – Saturday<br>7:30 AM – 3:00 PM<br>Sunday: Closed</p></div>
+                </div>
+
+                <div class="home-location-buttons">
+                    <a href="https://www.doordash.com/store/the-olive-branch-cafe-beaufort-40457383/100261758/" class="btn" target="_blank" rel="noopener noreferrer">Order Online</a>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=950+Ribaut+Road,+Beaufort,+SC" class="btn home-btn-outline" target="_blank" rel="noopener noreferrer">Directions</a>
+                </div>
+            </div>
+
+            <div class="map-container home-location-map">
+                <iframe src="https://www.google.com/maps?q=950+Ribaut+Road,+Beaufort,+SC&output=embed" loading="lazy" allowfullscreen title="Map of The Olive Branch Cafe"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================
+     Final Call to Action
+========================== -->
+<section class="home-final-cta fade-in fade-up">
+    <div class="container home-final-cta-content">
+        <span class="section-label">WELCOME TO YOUR NEW FAVORITE CAFÉ</span>
+        <h2>Come Experience The Olive Branch</h2>
+        <p>Fresh coffee.<br>Mediterranean-inspired food.<br>A welcoming atmosphere in Beaufort.</p>
+        <div class="home-final-cta-buttons">
+            <a href="menu.html" class="btn">View Menu</a>
+            <a href="https://www.doordash.com/store/the-olive-branch-cafe-beaufort-40457383/100261758/" class="btn secondary" target="_blank" rel="noopener noreferrer">Order Online</a>
+        </div>
+    </div>
+</section>
+</main>
+
 <!-- ==========================
      Footer
 ========================== -->
 
 <footer class="footer fade-in">
 
-    <div class="container footer-grid">
+    <div class="container footer-inner">
 
-        <div>
+        <div class="footer-grid">
 
-            <h3>The Olive Branch Cafe</h3>
+            <div class="footer-col footer-brand">
 
-            <p>
-                Fresh coffee, breakfast, lunch, homemade pastries,
-                and a welcoming atmosphere in Beaufort, South Carolina.
+                <a href="index.html" class="footer-logo">The Olive Branch</a>
+
+                <p class="footer-brand-text">
+                    The Olive Branch Cafe is a welcoming Beaufort destination for handcrafted coffee, Mediterranean-inspired food, fresh pastries, and meaningful moments with family and friends.
+                </p>
+
+                <div class="footer-social">
+
+                    <a class="footer-social-link"
+                       href="https://www.instagram.com/theolivebranch.beaufort/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Follow The Olive Branch on Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                            <rect x="3.5" y="3.5" width="17" height="17" rx="5"/>
+                            <circle cx="12" cy="12" r="4"/>
+                            <circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/>
+                        </svg>
+                    </a>
+
+                    <a class="footer-social-link"
+                       href="https://www.facebook.com/people/The-Olive-Branch-Cafe/61581589833153/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Follow The Olive Branch on Facebook">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                            <path d="M14 8h2.5V5.5H14c-2 0-3.5 1.4-3.5 3.5V11H8.5v2.5H10.5V20H13.5v-6.5H16L16.5 11H13.5V9c0-.6.4-1 1-1Z"/>
+                        </svg>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-col footer-hours">
+
+                <div class="footer-hours-heading">
+                    <h3 class="footer-heading">Hours</h3>
+                    <span class="footer-open-badge" id="footer-open-badge" hidden>Open Today</span>
+                </div>
+
+                <ul class="footer-hours-list">
+                    <li><span>Monday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li><span>Tuesday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li><span>Wednesday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li><span>Thursday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li><span>Friday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li><span>Saturday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li class="is-closed"><span>Sunday</span><span>Closed</span></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col footer-contact">
+
+                <h3 class="footer-heading">Contact</h3>
+
+                <ul class="footer-contact-list">
+
+                    <li>
+                        <span class="footer-contact-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                <path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 11c0 5.5-7 10-7 10Z"/>
+                                <circle cx="12" cy="11" r="2.2"/>
+                            </svg>
+                        </span>
+                        <span>
+                            1214 Ribaut Rd<br>
+                            Beaufort, SC 29902
+                        </span>
+                    </li>
+
+                    <li>
+                        <span class="footer-contact-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                <path d="M6.5 4.5h3l1.2 3.2-1.8 1.8a11 11 0 0 0 5.6 5.6l1.8-1.8 3.2 1.2v3a2 2 0 0 1-2.2 2A14.5 14.5 0 0 1 4.5 6.7a2 2 0 0 1 2-2.2Z"/>
+                            </svg>
+                        </span>
+                        <a href="tel:+18433792188">(843) 379-2188</a>
+                    </li>
+
+                    <li>
+                        <span class="footer-contact-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                <rect x="3.5" y="5.5" width="17" height="13" rx="2"/>
+                                <path d="m4.5 7.5 7.5 6 7.5-6"/>
+                            </svg>
+                        </span>
+                        <a href="mailto:MANAGEMENT.URBANBREW@GMAIL.COM">MANAGEMENT.URBANBREW@GMAIL.COM</a>
+                    </li>
+
+                </ul>
+
+                <a class="footer-order-btn"
+                   href="https://www.doordash.com/store/the-olive-branch-cafe-beaufort-40457383/100261758/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Order Online
+                </a>
+
+            </div>
+
+            <div class="footer-col footer-find">
+
+                <h3 class="footer-heading">Find Us</h3>
+
+                <div class="footer-map">
+                    <iframe
+                        src="https://www.google.com/maps?q=The+Olive+Branch+Cafe+1214+Ribaut+Rd+Beaufort+SC+29902&output=embed"
+                        loading="lazy"
+                        allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Map of The Olive Branch Cafe">
+                    </iframe>
+                </div>
+
+                <a class="footer-directions"
+                   href="https://www.google.com/maps/search/?api=1&query=The+Olive+Branch+Cafe+1214+Ribaut+Rd+Beaufort+SC+29902"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Get Directions
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p class="footer-bottom-copy">
+                © 2026 The Olive Branch Cafe. All Rights Reserved.
             </p>
 
-        </div>
-
-        <div>
-
-            <h3>Quick Links</h3>
-
-            <ul class="footer-links">
-
-                <li><a href="index.html">Home</a></li>
-
-                <li><a href="menu.html">Menu</a></li>
-
-                <li><a href="about.html">About</a></li>
-
-                <li><a href="gallery.html">Gallery</a></li>
-
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
+            <nav class="footer-bottom-links" aria-label="Footer legal">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="accessibility.html">Accessibility</a>
+                <a class="footer-credit" href="#">Website designed by Graeme Angus</a>
+            </nav>
 
         </div>
-
-        <div>
-
-            <h3>Follow Us</h3>
-
-            <ul class="footer-links">
-
-                <li>
-                    <a href="https://www.instagram.com/theolivebranch.beaufort/" target="_blank">
-                        Instagram
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://www.facebook.com/people/The-Olive-Branch-Cafe/61581589833153/" target="_blank">
-                        Facebook
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://www.doordash.com/store/the-olive-branch-cafe-beaufort-40457383/100261758/" target="_blank">
-                        Order Online
-                    </a>
-                </li>
-
-            </ul>
-
-        </div>
-
-    </div>
-
-    <div class="copyright">
-
-        <p>
-            © 2026 The Olive Branch Cafe. All Rights Reserved.
-        </p>
 
     </div>
 
 </footer>
-<div id="lightbox" class="lightbox">
 
-    <span class="close-lightbox">&times;</span>
+
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image gallery" aria-hidden="true">
+
+    <button type="button" class="close-lightbox" aria-label="Close image viewer">&times;</button>
 
     <img id="lightbox-image" src="" alt="">
 

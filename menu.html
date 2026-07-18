@@ -5,23 +5,88 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#5B6F3A">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="The Olive Branch Cafe">
 
-    <title>Menu | The Olive Branch Cafe</title>
+    <title>Menu | The Olive Branch Cafe | Coffee, Breakfast &amp; Lunch</title>
+    <meta name="description" content="Explore specialty coffee, Mediterranean breakfast and lunch, fresh pastries, and smoothies on the menu at The Olive Branch Cafe in Beaufort, SC.">
+
+    <link rel="canonical" href="https://www.theolivebranchbeaufort.com/menu.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Olive Branch Cafe">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Menu | The Olive Branch Cafe | Coffee, Breakfast &amp; Lunch">
+    <meta property="og:description" content="Explore specialty coffee, Mediterranean breakfast and lunch, fresh pastries, and smoothies on the menu at The Olive Branch Cafe in Beaufort, SC.">
+    <meta property="og:url" content="https://www.theolivebranchbeaufort.com/menu.html">
+    <meta property="og:image" content="https://www.theolivebranchbeaufort.com/images/hero/hero.jpg">
+    <meta property="og:image:alt" content="The Olive Branch Cafe exterior and outdoor seating in Beaufort, South Carolina">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Menu | The Olive Branch Cafe | Coffee, Breakfast &amp; Lunch">
+    <meta name="twitter:description" content="Explore specialty coffee, Mediterranean breakfast and lunch, fresh pastries, and smoothies on the menu at The Olive Branch Cafe in Beaufort, SC.">
+    <meta name="twitter:image" content="https://www.theolivebranchbeaufort.com/images/hero/hero.jpg">
+
+    <!-- Favicons: add favicon.ico, favicon-16x16.png, favicon-32x32.png, apple-touch-icon.png to site root -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <!-- When available, add to site root and uncomment:
+         <link rel="icon" href="favicon.ico" sizes="any">
+         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    -->
+    <link rel="apple-touch-icon" href="images/hero/logo/logo.webp">
+    <link rel="manifest" href="site.webmanifest">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="css/style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["CafeOrCoffeeShop", "Restaurant"],
+      "name": "The Olive Branch Cafe",
+      "url": "https://www.theolivebranchbeaufort.com/",
+      "image": "https://www.theolivebranchbeaufort.com/images/hero/hero.jpg",
+      "telephone": "+18433792188",
+      "menu": "https://www.theolivebranchbeaufort.com/menu.html",
+      "servesCuisine": ["Coffee Shop", "Cafe", "Mediterranean"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1214 Ribaut Rd",
+        "addressLocality": "Beaufort",
+        "addressRegion": "SC",
+        "postalCode": "29902",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "08:00",
+          "closes": "15:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/theolivebranch.beaufort/",
+        "https://www.facebook.com/people/The-Olive-Branch-Cafe/61581589833153/",
+        "https://www.yelp.com/biz/the-olive-branch-beaufort"
+      ]
+    }
+    </script>
 
 </head>
 
-<body>
+<body class="menu-page">
+
+<a class="skip-link" href="#main">Skip to content</a>
 
 <header>
 
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Primary">
 
         <a href="index.html" class="logo">
             The Olive Branch
@@ -43,7 +108,7 @@
 
         <a class="order-button"
            href="https://www.doordash.com/store/the-olive-branch-cafe-beaufort-40457383/100261758/"
-           target="_blank">
+           target="_blank" rel="noopener noreferrer">
 
             Order Online
 
@@ -53,7 +118,9 @@
 
 </header>
 
-<section class="menu-header">
+<main id="main">
+
+<section class="menu-header hero-parallax">
 
     <div class="container">
 
@@ -71,380 +138,621 @@
 <!-- ==========================
      Menu Navigation
 ========================== -->
-
-<section class="menu-nav">
-
+<nav class="menu-nav" aria-label="Menu sections">
     <div class="container">
-
         <a href="#coffee">Coffee</a>
-
+        <a href="#non-coffee">Non-Coffee</a>
         <a href="#smoothies">Smoothies</a>
-
+        <a href="#flavors">Flavors</a>
+        <a href="#sweet-bites">Sweet Bites</a>
+        <a href="#tapas">Tapas</a>
         <a href="#savory">Savory Plates</a>
-
-        <a href="#pastries">Pastries</a>
-
+        <a href="#sides">Sides</a>
     </div>
+</nav>
 
-</section>
-<!-- Featured Favorites -->
-
-<section class="menu-featured">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <span class="section-label">CUSTOMER FAVORITES</span>
-
-            <h2>Our Most Popular Picks</h2>
-
-            <p>
-                Freshly prepared favorites that our guests come back for again and again.
-            </p>
-
-        </div>
-
-        <div class="favorite-grid">
-
-            <div class="favorite-card">
-
-                <img src="images/food/acai.jpg" alt="Acai Bowl">
-
-                <h3>Acai Bowl</h3>
-
-                <p>Fresh fruit, granola, coconut, and delicious toppings.</p>
-
-                <span class="menu-price">$12.00</span>
-
-            </div>
-
-            <div class="favorite-card">
-
-                <img src="images/food/gyro.jpg" alt="Gyro">
-
-                <h3>OB Gyro</h3>
-
-                <p>Our signature gyro served in warm pita with fresh toppings.</p>
-
-                <span class="menu-price">$11.00</span>
-
-            </div>
-
-            <div class="favorite-card">
-
-                <img src="images/coffee/iced-coffee.jpg" alt="Iced Coffee">
-
-                <h3>Iced Coffee</h3>
-
-                <p>Freshly brewed and served ice cold.</p>
-
-                <span class="menu-price">$5.00</span>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-<section class="featured-menu-items">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <span class="section-label">CUSTOMER FAVORITES</span>
-
-            <h2>Popular Choices</h2>
-
-            <p>
-                Some of our guests' favorite menu items.
-            </p>
-
-        </div>
-
-        <div class="favorite-grid">
-
-            <div class="favorite-card">
-
-    <span class="popular-badge">★ Popular</span>
-
-    <img src="images/food/latte.jpg" alt="Latte">
-
-    <h3>House Latte</h3>
-
-    <p>Fresh espresso with perfectly steamed milk.</p>
-
-</div>
-
-            <div class="favorite-card">
-
-                <img src="images/food/gyro.jpg" alt="OB Gyro">
-
-                <h3>OB Gyro</h3>
-
-                <p>One of our most popular Mediterranean classics.</p>
-
-            </div>
-
-            <div class="favorite-card">
-
-                <img src="images/food/acai.jpg" alt="Acai Bowl">
-
-                <h3>Acai Bowl</h3>
-
-                <p>Fresh fruit, granola and delicious toppings.</p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
 <!-- ==========================
-     Coffee & Espresso
+     Coffee
 ========================== -->
-
-<section class="menu-section" id="coffee">
-
+<section class="menu-modern-section fade-in fade-up" id="coffee">
     <div class="container">
-
-        <div class="section-heading">
-
-            <span class="section-label">COFFEE & ESPRESSO</span>
-
-            <h2>☕ Handcrafted Drinks</h2>
-
-            <p>
-                Freshly brewed coffee and espresso drinks made to order.
-            </p>
-
-        </div>
-
-        <div class="menu-list">
-
-            <div class="menu-item">
-                <h3>Espresso</h3>
-                <span>$3.50</span>
-            </div>
-
-            <div class="menu-item">
-                <h3>Americano</h3>
-                <span>$4.00</span>
-            </div>
-
-            <div class="menu-item">
-                <h3>Cappuccino</h3>
-                <span>$5.00</span>
-            </div>
-
-            <div class="menu-item">
-                <h3>Latte</h3>
-                <span>$5.50</span>
-            </div>
-
-            <div class="menu-item">
-                <h3>Mocha</h3>
-                <span>$6.00</span>
-            </div>
-
-            <div class="menu-item">
-                <h3>Cold Brew</h3>
-                <span>$5.00</span>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- ==========================
-     Featured Drink
-========================== -->
-
-<section class="featured-menu-item">
-
-    <div class="container">
-
-        <div class="featured-menu-image">
-
-            <img src="images/coffee/iced-coffee.jpg" alt="Signature Drink">
-
-        </div>
-
-        <div class="featured-menu-content">
-
-            <span class="section-label">
-                BARISTA FAVORITE
+        <header class="menu-modern-heading">
+            <span class="menu-section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 8h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Zm13 2h1.5a2.5 2.5 0 0 1 0 5H17M8 4c0 1 1 1.5 1 2.5M12 4c0 1 1 1.5 1 2.5"/></svg>
             </span>
+            <div>
+                <span class="section-label">HANDCRAFTED</span>
+                <h2>Coffee</h2>
+                <p>Locally roasted coffee and espresso, prepared to order.</p>
+            </div>
+        </header>
 
-            <h2>Signature Iced Honey Latte</h2>
+        <figure class="menu-lifestyle-banner menu-lifestyle-banner-coffee">
+            <img src="images/hero/coffee/iced-coffee.jpg"
+                 alt="Handcrafted iced coffee at The Olive Branch"
+                 loading="lazy">
+            <figcaption>
+                <span>Locally Roasted</span>
+                <strong>Handcrafted for your morning ritual</strong>
+            </figcaption>
+        </figure>
 
-            <p>
-
-                Rich espresso, creamy milk, and a touch of local honey
-                served over ice. Smooth, refreshing, and one of our
-                most popular drinks.
-
-            </p>
-
-            <a href="#coffee" class="btn">
-
-                View Coffee Menu
-
-            </a>
-
+        <div class="menu-compact-grid">
+            <article class="menu-compact-card">
+                <div>
+                    <h3>Espresso Shot</h3>
+                    <p>Single or double shot.</p>
+                </div>
+                <div class="menu-price-stack">
+                    <span><small>Single</small> $2+</span>
+                    <span><small>Double</small> $3.25+</span>
+                </div>
+            </article>
+            <article class="menu-compact-card"><div><h3>Americano</h3><p>House espresso finished with hot water.</p></div><span class="menu-card-price">$4+</span></article>
+            <article class="menu-compact-card"><div><h3>Latte</h3><p>House espresso with silky steamed milk.</p></div><span class="menu-card-price">$4.50+</span></article>
+            <article class="menu-compact-card"><div><h3>Dirty Chai</h3><p>Spiced chai, espresso, and steamed milk.</p></div><span class="menu-card-price">$6+</span></article>
+            <article class="menu-compact-card"><div><h3>Cappuccino</h3><p>Espresso balanced with milk and airy foam.</p></div><span class="menu-card-price">$4.50+</span></article>
+            <article class="menu-compact-card"><div><h3>Bottomless Drip</h3><p>Freshly brewed house coffee with refills.</p></div><span class="menu-card-price">$3.75+</span></article>
+            <article class="menu-compact-card"><div><h3>Cold Brew</h3><p>Smooth, slow-steeped coffee served cold.</p></div><span class="menu-card-price">$4.75+</span></article>
+            <article class="menu-compact-card"><div><h3>Frappe</h3><p>A creamy, refreshing blended coffee.</p></div><span class="menu-card-price">$5.25+</span></article>
         </div>
-
     </div>
-
 </section>
-<section class="menu-section alt-section" id="smoothies">
 
+<!-- ==========================
+     Non-Coffee Drinks
+========================== -->
+<section class="menu-modern-section menu-modern-section-muted fade-in fade-left" id="non-coffee">
     <div class="container">
-
-        <div class="section-heading">
-
-            <span class="section-label">SMOOTHIES</span>
-
-           <h2>🥤 Fresh Smoothies</h2> 
-
-            <p>Refreshing fruit smoothies blended to order.</p>
-
-        </div>
-
-        <div class="menu-list">
-
-            <div class="menu-item">
-                <div>
-                    <h3>Strawberry Banana</h3>
-                    <p>Fresh strawberries, banana, and creamy yogurt.</p>
-                </div>
-                <span>$7.00</span>
+        <header class="menu-modern-heading">
+            <span class="menu-section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 5h10l-1 14H8L7 5Zm2-3 6 3M8 10h8"/></svg>
+            </span>
+            <div>
+                <span class="section-label">MORE TO SIP</span>
+                <h2>Non-Coffee Drinks</h2>
+                <p>Tea, matcha, lemonade, and colorful café favorites.</p>
             </div>
+        </header>
 
-            <div class="menu-item">
-                <div>
-                    <h3>Tropical Paradise</h3>
-                    <p>Mango, pineapple, banana, and orange juice.</p>
-                </div>
-                <span>$7.50</span>
-            </div>
-
+        <div class="menu-compact-grid">
+            <article class="menu-compact-card"><div><h3>Chai Latte</h3><p>Aromatic spiced tea with steamed milk.</p></div><span class="menu-card-price">$4.85+</span></article>
+            <article class="menu-compact-card"><div><h3>Matcha Latte</h3><p>Earthy matcha whisked with creamy milk.</p></div><span class="menu-card-price">$4.85+</span></article>
+            <article class="menu-compact-card"><div><h3>Matcha Lemonade</h3><p>Bright lemonade layered with matcha.</p></div><span class="menu-card-price">$5.25+</span></article>
+            <article class="menu-compact-card"><div><h3>Moon Tea</h3><p>A smooth, café-crafted tea favorite.</p></div><span class="menu-card-price">$4.85+</span></article>
+            <article class="menu-compact-card"><div><h3>Herbal Tea</h3><p>A soothing caffeine-free steep.</p></div><span class="menu-card-price">$3.50+</span></article>
+            <article class="menu-compact-card"><div><h3>Pink Starburst</h3><p>A sweet, colorful house specialty.</p></div><span class="menu-card-price">$5.50+</span></article>
+            <article class="menu-compact-card"><div><h3>Lemonade</h3><p>Cold, bright, and refreshingly tart.</p></div><span class="menu-card-price">$3.75+</span></article>
         </div>
-
     </div>
-
 </section>
+
+<!-- ==========================
+     Fresh Fruit Smoothies
+========================== -->
+<section class="menu-modern-section fade-in fade-right" id="smoothies">
+    <div class="container">
+        <header class="menu-modern-heading">
+            <span class="menu-section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m9 3 6 3M7 7h10l-1 13H8L7 7Zm2 4h6"/></svg>
+            </span>
+            <div>
+                <span class="section-label">FRESH FRUIT • $9 EACH</span>
+                <h2>Fresh Fruit Smoothies</h2>
+                <p>Fruit-forward blends made fresh with thoughtfully paired ingredients.</p>
+            </div>
+        </header>
+
+        <figure class="menu-lifestyle-banner menu-lifestyle-banner-smoothie">
+            <img src="images/smoothie.jpeg"
+                 alt="Fresh green fruit smoothie inside the café"
+                 loading="lazy">
+            <figcaption>
+                <span>Blended Fresh</span>
+                <strong>Colorful ingredients, bright flavor</strong>
+            </figcaption>
+        </figure>
+
+        <div class="menu-smoothie-grid">
+            <article class="menu-detail-card">
+                <div class="menu-card-top"><h3>The Glow Getter</h3><span class="menu-card-price">$9</span></div>
+                <ul class="menu-ingredient-list">
+                    <li>Strawberries</li><li>Banana</li><li>Collagen</li><li>Coconut Water</li><li>Lemonade</li>
+                </ul>
+            </article>
+            <article class="menu-detail-card">
+                <div class="menu-card-top"><h3>The Lowcountry Green</h3><span class="menu-card-price">$9</span></div>
+                <ul class="menu-ingredient-list">
+                    <li>Mango</li><li>Banana</li><li>Spinach</li><li>Celery</li><li>Cucumber</li><li>Grapes</li><li>Coconut Water</li>
+                </ul>
+            </article>
+            <article class="menu-detail-card">
+                <div class="menu-card-top"><h3>The Pluff Mud</h3><span class="menu-card-price">$9</span></div>
+                <ul class="menu-ingredient-list">
+                    <li>Banana</li><li>Oats</li><li>Cocoa</li><li>Peanut Butter</li><li>Honey</li><li>Coconut Milk</li>
+                </ul>
+                <p class="menu-card-note">Add an espresso shot <strong>+$1</strong></p>
+            </article>
+            <article class="menu-detail-card">
+                <div class="menu-card-top"><h3>The Dress Blues</h3><span class="menu-card-price">$9</span></div>
+                <ul class="menu-ingredient-list">
+                    <li>Blueberries</li><li>Strawberries</li><li>Greek Yogurt</li><li>Chia</li><li>Honey</li><li>Coconut Milk</li>
+                </ul>
+            </article>
+        </div>
+
+        <aside class="menu-addons" aria-labelledby="smoothie-addons-heading">
+            <h3 id="smoothie-addons-heading">Smoothie Add-Ons</h3>
+            <div class="menu-chip-list">
+                <span class="menu-chip">Vegan Vanilla Protein <strong>+$2</strong></span>
+                <span class="menu-chip">Collagen <strong>+$2</strong></span>
+                <span class="menu-chip">Chia Seeds <strong>+$0.50</strong></span>
+                <span class="menu-chip">Oat Milk <strong>+$0.50</strong></span>
+            </div>
+        </aside>
+    </div>
+</section>
+
+<!-- ==========================
+     Specialty Flavors & Syrups
+========================== -->
+<section class="menu-modern-section menu-modern-section-muted fade-in fade-up" id="flavors">
+    <div class="container">
+        <header class="menu-modern-heading">
+            <span class="menu-section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m12 3 1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5L12 3ZM18 15l.8 2.2L21 18l-2.2.8L18 21l-.8-2.2L15 18l2.2-.8L18 15Z"/></svg>
+            </span>
+            <div>
+                <span class="section-label">MAKE IT YOURS</span>
+                <h2>Specialty Coffee Flavors</h2>
+                <p>Favorite combinations ready to inspire your next drink.</p>
+            </div>
+        </header>
+
+        <div class="menu-chip-list menu-chip-list-featured">
+            <span class="menu-chip">Caramel Macchiato</span><span class="menu-chip">Mariposa</span>
+            <span class="menu-chip">Mexican Mocha</span><span class="menu-chip">Coconut Mocha</span>
+            <span class="menu-chip">White Lavender Mocha</span><span class="menu-chip">Honey Lavender</span>
+            <span class="menu-chip">White Rabbit</span><span class="menu-chip">Turtle</span>
+            <span class="menu-chip">Nutella</span><span class="menu-chip">Honey Badger</span>
+            <span class="menu-chip">Oreo</span><span class="menu-chip">Snickerdoodle</span>
+            <span class="menu-chip">Cinnamon Toast Crunch</span><span class="menu-chip">S'mores</span>
+            <span class="menu-chip">Red Velvet</span><span class="menu-chip">Reese's</span>
+        </div>
+
+        <div class="menu-subsection" id="syrups">
+            <div class="menu-subsection-heading">
+                <h3>House Syrups</h3>
+                <p>Made almost entirely in house.</p>
+            </div>
+            <div class="menu-chip-list">
+                <span class="menu-chip menu-chip-light">Mocha</span><span class="menu-chip menu-chip-light">White Mocha</span>
+                <span class="menu-chip menu-chip-light">Caramel</span><span class="menu-chip menu-chip-light">Vanilla</span>
+                <span class="menu-chip menu-chip-light">Hazelnut</span><span class="menu-chip menu-chip-light">Honey</span>
+                <span class="menu-chip menu-chip-light">Almond</span><span class="menu-chip menu-chip-light">Peppermint</span>
+                <span class="menu-chip menu-chip-light">Simple Syrup</span><span class="menu-chip menu-chip-light">Coconut</span>
+                <span class="menu-chip menu-chip-light">Toasted Marshmallow</span><span class="menu-chip menu-chip-light">Peanut Butter</span>
+                <span class="menu-chip menu-chip-light">Blackberry</span><span class="menu-chip menu-chip-light">Lavender</span>
+                <span class="menu-chip menu-chip-light">Peach</span><span class="menu-chip menu-chip-light">Mango</span>
+                <span class="menu-chip menu-chip-light">Strawberry</span><span class="menu-chip menu-chip-light">Blueberry</span>
+                <span class="menu-chip menu-chip-light">Banana</span><span class="menu-chip menu-chip-light">Raspberry</span>
+                <span class="menu-chip menu-chip-light">Sugar-Free Mocha</span><span class="menu-chip menu-chip-light">Sugar-Free Vanilla</span>
+                <span class="menu-chip menu-chip-light">Seasonal Sugar-Free</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================
+     Sweet Bites
+========================== -->
+<section class="menu-modern-section fade-in fade-left" id="sweet-bites">
+    <div class="container">
+        <header class="menu-modern-heading">
+            <span class="menu-section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 11h16M6 11a6 6 0 0 1 12 0v7H6v-7Zm-2 7h16"/></svg>
+            </span>
+            <div>
+                <span class="section-label">BREAKFAST & TREATS</span>
+                <h2>Sweet Bites</h2>
+                <p>Comforting breakfast favorites with plenty of ways to make them your own.</p>
+            </div>
+        </header>
+
+        <figure class="menu-lifestyle-banner menu-lifestyle-banner-sweet">
+            <img src="images/hero/food/waffles.jpg"
+                 alt="Waffles topped with strawberries, cream, and pistachio butter"
+                 loading="lazy">
+            <figcaption>
+                <span>Slow Mornings</span>
+                <strong>Sweet favorites made to linger over</strong>
+            </figcaption>
+        </figure>
+
+        <div class="menu-food-grid">
+            <article class="menu-food-card">
+                <span class="menu-favorite-badge">Customer Favorite</span>
+                <div class="menu-card-top"><h3>The Amalfi Stack</h3><span class="menu-card-price">$11.95</span></div>
+                <p>Two fluffy home-style waffles served with house-made pistachio butter and your choice of one topping.</p>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>No Boundaries Waffles</h3><span class="menu-card-price">$10.95</span></div>
+                <p>Two fluffy home-style waffles served with your choice of three toppings.</p>
+            </article>
+            <article class="menu-food-card menu-food-card-photo">
+                <img src="images/hero/food/acai.jpg" alt="House-made açaí bowl with fresh toppings" loading="lazy">
+                <div class="menu-food-card-body">
+                    <span class="menu-favorite-badge">Customer Favorite</span>
+                    <div class="menu-card-top"><h3>Açaí Bowl</h3><span class="menu-card-price">$12.95</span></div>
+                    <p>House-made açaí topped with granola, coconut flakes, banana, strawberries, and honey.</p>
+                </div>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>Greek God's Yogurt</h3><span class="menu-card-price">$6.79</span></div>
+                <p>Honey vanilla Greek yogurt with granola, blueberries, strawberries, coconut flakes, and honey drizzle.</p>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>Heaven Toast</h3><span class="menu-card-price">$7.50</span></div>
+                <p>Crisp toasted sourdough with creamy peanut butter, banana, coconut flakes, cinnamon, and honey drizzle.</p>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>Mama Bear Oatmeal</h3><span class="menu-card-price">$7.50</span></div>
+                <p>Oats cooked to perfection, sweetened with honey, and finished with your choice of three toppings.</p>
+                <p class="menu-card-note">Papa Bear size <strong>+$2.50</strong></p>
+            </article>
+        </div>
+
+        <div class="menu-subsection" id="sweet-toppings">
+            <div class="menu-subsection-heading"><h3>Sweet Toppings</h3><p>Choose your favorites.</p></div>
+            <div class="menu-chip-list">
+                <span class="menu-chip">Pistachio Butter <strong>+$3</strong></span><span class="menu-chip">Nutella <strong>+$2</strong></span>
+                <span class="menu-chip">Peanut Butter <strong>+$2</strong></span><span class="menu-chip">Strawberries</span>
+                <span class="menu-chip">Blueberries</span><span class="menu-chip">Banana</span>
+                <span class="menu-chip">Coconut Flakes</span><span class="menu-chip">Chocolate Chips</span>
+                <span class="menu-chip">Whipped Cream</span><span class="menu-chip">Cinnamon</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================
+     Tapas
+========================== -->
+<section class="menu-modern-section menu-modern-section-muted fade-in fade-right" id="tapas">
+    <div class="container">
+        <header class="menu-modern-heading">
+            <span class="menu-section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 13h16M6 13a6 6 0 0 1 12 0M3 17h18"/></svg>
+            </span>
+            <div>
+                <span class="section-label">FOR THE TABLE</span>
+                <h2>Tapas</h2>
+                <p>Mediterranean-inspired small plates made for sharing.</p>
+            </div>
+        </header>
+
+        <figure class="menu-lifestyle-banner menu-lifestyle-banner-tapas">
+            <img src="images/hero/food/lasagna.jpg"
+                 alt="A warm Mediterranean-inspired café plate"
+                 loading="lazy">
+            <figcaption>
+                <span>Made to Share</span>
+                <strong>Small plates with Mediterranean spirit</strong>
+            </figcaption>
+        </figure>
+
+        <div class="menu-horizontal-list">
+            <article class="menu-horizontal-card">
+                <div><h3>The Santorini Trio</h3><p>A delightful trio of chickpea hummus, creamy dill tzatziki, and feisty feta dip with warm pita bread.</p></div>
+                <span class="menu-card-price">$12</span>
+            </article>
+            <article class="menu-horizontal-card">
+                <div><h3>Olive Tapenade</h3><p>A blend of puréed Mediterranean olives and oils, whipped goat cheese, and warm pita bread.</p></div>
+                <span class="menu-card-price">$11</span>
+            </article>
+            <article class="menu-horizontal-card">
+                <div><h3>Bacon Wrapped Dates</h3><p>Three goat cheese-stuffed dates wrapped in crispy bacon, crisped to perfection, and drizzled with honey.</p></div>
+                <span class="menu-card-price">$8</span>
+            </article>
+            <article class="menu-horizontal-card">
+                <div><h3>Athenian Bites</h3><p>Tender grape leaf dolmas filled with herbed rice, paired with flaky spanakopita layered with spinach, feta, and fresh herbs.</p></div>
+                <span class="menu-card-price">$10</span>
+            </article>
+        </div>
+    </div>
+</section>
+
 <!-- ==========================
      Savory Plates
 ========================== -->
-
-<section class="menu-section" id="savory">
-
+<section class="menu-modern-section fade-in fade-up" id="savory">
     <div class="container">
+        <header class="menu-modern-heading">
+            <span class="menu-section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 3v7M4 3v4a3 3 0 0 0 6 0V3M7 10v11M16 3v18M16 3c3 2 4 5 4 8h-4"/></svg>
+            </span>
+            <div>
+                <span class="section-label">LUNCH & MEDITERRANEAN FAVORITES</span>
+                <h2>Savory Plates</h2>
+                <p>Fresh, satisfying plates with Mediterranean flavors and house-made touches.</p>
+            </div>
+        </header>
 
-        <div class="section-heading">
+        <figure class="menu-lifestyle-banner menu-lifestyle-banner-savory">
+            <img src="images/gyro.jpeg"
+                 alt="The Olive Branch gyro with a fresh Mediterranean side"
+                 loading="lazy">
+            <figcaption>
+                <span>Fresh from the Kitchen</span>
+                <strong>Mediterranean flavor, made with care</strong>
+            </figcaption>
+        </figure>
 
-            <span class="section-label">SAVORY PLATES</span>
+        <div class="menu-food-grid">
+            <article class="menu-food-card menu-food-card-photo menu-food-card-featured">
+                <img src="images/gyro.jpeg" alt="The Olive Branch gyro with a Mediterranean side salad" loading="lazy">
+                <div class="menu-food-card-body">
+                    <div class="menu-card-top"><h3>Olive Branch Gyro</h3><span class="menu-card-price">$10 + protein</span></div>
+                    <p>House-made pita stuffed with spring mix, creamy house-made tzatziki, crumbled feta, and your choice of protein. Served with Mediterranean medley.</p>
+                    <p class="menu-card-note"><strong>Choose your protein.</strong></p>
+                </div>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>Olive Branch Gyro Bowl</h3><span class="menu-card-price">$10 + protein</span></div>
+                <p>A hearty bowl of quinoa, spring mix, feta, house-made tzatziki, Mediterranean medley, and your choice of protein.</p>
+                <p class="menu-card-note"><strong>Choose your protein.</strong></p>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>Margherita Panini</h3><span class="menu-card-price">$9.95</span></div>
+                <p>Sliced tomato and mozzarella layered with basil pesto and balsamic glaze, pressed perfectly on sourdough.</p>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>The Grove Frittata</h3><span class="menu-card-price">$10.95</span></div>
+                <p>Baked frittata with feta, mozzarella, spinach, cherry tomato, basil, and onion. Served with spring mix and balsamic glaze.</p>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>Pita-Dilla</h3><span class="menu-card-price">$10</span></div>
+                <p>A grilled house-made pita stuffed with hummus, melted mozzarella, feta, and your choice of protein.</p>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>Greek Salad</h3><span class="menu-card-price">$10.95</span></div>
+                <p>Fresh greens, feta, Mediterranean medley, olives, pepperoncini, and classic Greek dressing. Add your choice of protein.</p>
+            </article>
+            <article class="menu-food-card menu-food-card-photo">
+                <img src="images/grilledcheese.jpeg" alt="Fancy grilled cheese on toasted sourdough" loading="lazy">
+                <div class="menu-food-card-body">
+                    <div class="menu-card-top"><h3>Fancy Grilled Cheese</h3><span class="menu-card-price">$8.50</span></div>
+                    <p>Sharp cheddar and mozzarella with seasoned tomato slices on crisp, toasted sourdough.</p>
+                </div>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>Chicken Salad on Ciabatta</h3><span class="menu-card-price">$10.50</span></div>
+                <p>Our twist on traditional chicken salad, served on spring mix and mixed greens with warm toasted ciabatta.</p>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>Brekkie on Ciabatta</h3><span class="menu-card-price">$9.95</span></div>
+                <p>Two fried eggs, sliced ham, sharp cheddar, tomato, and house-made sriracha aioli on toasted ciabatta.</p>
+            </article>
+            <article class="menu-food-card">
+                <div class="menu-card-top"><h3>Avocado Toast</h3><span class="menu-card-price">$9</span></div>
+                <p>Seasoned mashed avocado, sliced tomato, sesame seeds, and balsamic glaze on crisp sourdough.</p>
+            </article>
+        </div>
 
-            <h2>🥙 Mediterranean Favorites</h2>
+        <div class="menu-options-grid">
+            <fieldset class="menu-option-panel">
+                <legend>Choose Your Protein</legend>
+                <p>Select a protein for your gyro, bowl, salad, or Pita-Dilla.</p>
+                <div class="menu-selectable-list">
+                    <input type="checkbox" id="protein-chicken"><label for="protein-chicken">Greek Chicken <strong>+$4</strong></label>
+                    <input type="checkbox" id="protein-lamb"><label for="protein-lamb">Shaved Lamb <strong>+$5</strong></label>
+                    <input type="checkbox" id="protein-falafel"><label for="protein-falafel">Falafel <strong>+$3</strong></label>
+                    <input type="checkbox" id="protein-egg"><label for="protein-egg">Fried Egg <strong>+$1.50</strong></label>
+                    <input type="checkbox" id="protein-bacon"><label for="protein-bacon">Bacon <strong>+$2</strong></label>
+                </div>
+            </fieldset>
+            <div class="menu-option-panel">
+                <h3>Sauces</h3>
+                <p>House favorites to complement your plate.</p>
+                <div class="menu-chip-list">
+                    <span class="menu-chip">Greek Dressing</span><span class="menu-chip">Tzatziki</span>
+                    <span class="menu-chip">Sriracha Aioli</span><span class="menu-chip">Basil Pesto</span>
+                    <span class="menu-chip">Honey Balsamic</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-            <p>
-                Freshly prepared with quality ingredients and served with care.
+<!-- ==========================
+     Sides
+========================== -->
+<section class="menu-modern-section menu-modern-section-muted fade-in fade-left" id="sides">
+    <div class="container">
+        <header class="menu-modern-heading">
+            <span class="menu-section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M5 8h14l-1 11H6L5 8Zm3-3h8M9 12h6"/></svg>
+            </span>
+            <div>
+                <span class="section-label">COMPLETE YOUR MEAL</span>
+                <h2>Sides</h2>
+                <p>Add something extra to your breakfast or lunch.</p>
+            </div>
+        </header>
+
+        <div class="menu-side-grid">
+            <article class="menu-side-card"><h3>Large Side of Bacon</h3><span>+$4</span></article>
+            <article class="menu-side-card"><h3>Mediterranean Medley</h3><span>+$3</span></article>
+            <article class="menu-side-card"><h3>Hummus or Feisty Feta Dip with Pita</h3><span>+$5</span></article>
+            <article class="menu-side-card"><h3>Mixed Fresh Fruit</h3><span>+$3</span></article>
+            <article class="menu-side-card"><h3>Orzo Salad</h3><span>+$3.50</span></article>
+            <article class="menu-side-card"><h3>Soup of Choice</h3><span>+$3.50</span></article>
+            <article class="menu-side-card"><h3>Pita Bread Chips</h3><span>+$3</span></article>
+            <article class="menu-side-card"><h3>Quinoa</h3><span>+$3</span></article>
+        </div>
+    </div>
+</section>
+</main>
+
+<!-- ==========================
+     Footer
+========================== -->
+
+<footer class="footer fade-in">
+
+    <div class="container footer-inner">
+
+        <div class="footer-grid">
+
+            <div class="footer-col footer-brand">
+
+                <a href="index.html" class="footer-logo">The Olive Branch</a>
+
+                <p class="footer-brand-text">
+                    The Olive Branch Cafe is a welcoming Beaufort destination for handcrafted coffee, Mediterranean-inspired food, fresh pastries, and meaningful moments with family and friends.
+                </p>
+
+                <div class="footer-social">
+
+                    <a class="footer-social-link"
+                       href="https://www.instagram.com/theolivebranch.beaufort/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Follow The Olive Branch on Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                            <rect x="3.5" y="3.5" width="17" height="17" rx="5"/>
+                            <circle cx="12" cy="12" r="4"/>
+                            <circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/>
+                        </svg>
+                    </a>
+
+                    <a class="footer-social-link"
+                       href="https://www.facebook.com/people/The-Olive-Branch-Cafe/61581589833153/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Follow The Olive Branch on Facebook">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                            <path d="M14 8h2.5V5.5H14c-2 0-3.5 1.4-3.5 3.5V11H8.5v2.5H10.5V20H13.5v-6.5H16L16.5 11H13.5V9c0-.6.4-1 1-1Z"/>
+                        </svg>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-col footer-hours">
+
+                <div class="footer-hours-heading">
+                    <h3 class="footer-heading">Hours</h3>
+                    <span class="footer-open-badge" id="footer-open-badge" hidden>Open Today</span>
+                </div>
+
+                <ul class="footer-hours-list">
+                    <li><span>Monday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li><span>Tuesday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li><span>Wednesday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li><span>Thursday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li><span>Friday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li><span>Saturday</span><span>8:00 AM – 3:00 PM</span></li>
+                    <li class="is-closed"><span>Sunday</span><span>Closed</span></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col footer-contact">
+
+                <h3 class="footer-heading">Contact</h3>
+
+                <ul class="footer-contact-list">
+
+                    <li>
+                        <span class="footer-contact-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                <path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 11c0 5.5-7 10-7 10Z"/>
+                                <circle cx="12" cy="11" r="2.2"/>
+                            </svg>
+                        </span>
+                        <span>
+                            1214 Ribaut Rd<br>
+                            Beaufort, SC 29902
+                        </span>
+                    </li>
+
+                    <li>
+                        <span class="footer-contact-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                <path d="M6.5 4.5h3l1.2 3.2-1.8 1.8a11 11 0 0 0 5.6 5.6l1.8-1.8 3.2 1.2v3a2 2 0 0 1-2.2 2A14.5 14.5 0 0 1 4.5 6.7a2 2 0 0 1 2-2.2Z"/>
+                            </svg>
+                        </span>
+                        <a href="tel:+18433792188">(843) 379-2188</a>
+                    </li>
+
+                    <li>
+                        <span class="footer-contact-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                <rect x="3.5" y="5.5" width="17" height="13" rx="2"/>
+                                <path d="m4.5 7.5 7.5 6 7.5-6"/>
+                            </svg>
+                        </span>
+                        <a href="mailto:MANAGEMENT.URBANBREW@GMAIL.COM">MANAGEMENT.URBANBREW@GMAIL.COM</a>
+                    </li>
+
+                </ul>
+
+                <a class="footer-order-btn"
+                   href="https://www.doordash.com/store/the-olive-branch-cafe-beaufort-40457383/100261758/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Order Online
+                </a>
+
+            </div>
+
+            <div class="footer-col footer-find">
+
+                <h3 class="footer-heading">Find Us</h3>
+
+                <div class="footer-map">
+                    <iframe
+                        src="https://www.google.com/maps?q=The+Olive+Branch+Cafe+1214+Ribaut+Rd+Beaufort+SC+29902&output=embed"
+                        loading="lazy"
+                        allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Map of The Olive Branch Cafe">
+                    </iframe>
+                </div>
+
+                <a class="footer-directions"
+                   href="https://www.google.com/maps/search/?api=1&query=The+Olive+Branch+Cafe+1214+Ribaut+Rd+Beaufort+SC+29902"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Get Directions
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p class="footer-bottom-copy">
+                © 2026 The Olive Branch Cafe. All Rights Reserved.
             </p>
 
-        </div>
-
-        <div class="menu-list">
-
-            <div class="menu-item">
-                <div>
-                    <h3>OB Gyro Bowl</h3>
-                    <p>Seasoned gyro meat served over rice with fresh vegetables and tzatziki.</p>
-                </div>
-                <span>$12.00</span>
-            </div>
-
-            <div class="menu-item featured-food">
-
-    <img src="images/food/pasta.jpg" alt="OB Gyro">
-
-    <div class="menu-text">
-
-        <h3>🥙 OB Gyro</h3>
-
-        <p>
-            Traditional gyro wrapped in warm pita with crisp lettuce,
-            tomatoes, onions, and homemade tzatziki.
-        </p>
-
-    </div>
-
-    <span>$11.00</span>
-
-</div>
-
-            <div class="menu-item">
-                <div>
-                    <h3>Greek Salad</h3>
-                    <p>Crisp greens, tomatoes, cucumbers, olives, feta, and house dressing.</p>
-                </div>
-                <span>$13.14</span>
-            </div>
-
-            <div class="menu-item">
-                <div>
-                    <h3>Pita-Dilla</h3>
-                    <p>Grilled pita stuffed with melted cheese and savory fillings.</p>
-                </div>
-                <span>$12.00</span>
-            </div>
+            <nav class="footer-bottom-links" aria-label="Footer legal">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="accessibility.html">Accessibility</a>
+                <a class="footer-credit" href="#">Website designed by Graeme Angus</a>
+            </nav>
 
         </div>
 
     </div>
 
-</section>
-<section class="menu-section alt-section" id="pastries">
+</footer>
 
-    <div class="container">
 
-        <div class="section-heading">
 
-            <span class="section-label">PASTRIES</span>
-
-            <h2>🥐 Fresh Baked Favorites</h2>
-
-            <p>Perfect with your morning coffee.</p>
-
-        </div>
-
-        <div class="menu-list">
-
-            <div class="menu-item">
-                <div>
-                    <h3>Croissant</h3>
-                    <p>Buttery, flaky, baked fresh daily.</p>
-                </div>
-                <span>$4.50</span>
-            </div>
-
-            <div class="menu-item">
-                <div>
-                    <h3>Blueberry Muffin</h3>
-                    <p>Fresh baked every morning.</p>
-                </div>
-                <span>$4.25</span>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
 <script src="js/script.js"></script>
 
 </body>
