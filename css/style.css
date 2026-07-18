@@ -3983,7 +3983,7 @@ section{
 
         min-height:88svh;
 
-        padding:160px 20px 100px;
+        padding:12rem 20px 100px;
 
     }
 
@@ -7028,11 +7028,13 @@ button:focus-visible,
     .contact-hero,
     .gallery-hero,
     .menu-header,
-    .menu-hero{
+    .menu-hero,
+    .location-hero{
 
         min-height:auto;
 
-        padding:170px 20px 90px;
+        /* Clear the taller wrapped mobile navbar */
+        padding:12rem 20px 90px;
 
     }
 
@@ -9269,7 +9271,7 @@ button:focus-visible,
 
     .location-hero{
         min-height:auto;
-        padding:170px 20px 90px;
+        padding:12rem 20px 90px;
     }
 
     .visit-action-buttons{
